@@ -39,6 +39,16 @@ This allows for easy replacement of the data source in the future (e.g., switch 
 
 ---
 
+Sample data
+
+| Inventory Id | Name | Description       |
+| ------------ | ---- | ----------------- |
+| 1001         | COG  | convenience goods |
+| 2001         | SHG  | shopping goods    |
+| 2008         | SPG  | specialty goods   |
+| 3001         | UNG  | unsought goods    |
+
+
 ## 📦 Installation & Running Locally
 ```bash
 # Clone this repository
@@ -52,3 +62,5 @@ npm install
 
 # Start the server
 node server.js
+
+
